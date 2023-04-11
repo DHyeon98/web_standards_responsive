@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 표준 사이트</title>
+    <script src="./js/jquery-3.6.3.min.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./aos-master/aos-master/dist/aos.css">
+    <script src="./aos-master/aos-master/dist/aos.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div>
+                <h1 data-aos="flip-up">Web Standards</h1>
+                <p data-aos="fade-up"
+                    data-aos-delay="500"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                >
+                    이 사이트는 웹표준, 웹접근성,<br>
+                    크로스브라우징을 준수하고 있습니다.
+                </p>
+                <div data-aos="fade-up"
+                    data-aos-delay="1000"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    class="other_site">
+                    <a href="#">
+                        다른 사이트 바로가기
+                    </a>
+                </div>
+                <div class="img_box header_img1">
+                    <img src="./img/header_circle1.png" alt="헤더 회전하는 볼트 이미지">
+                </div>
+                <div class="img_box header_img2">
+                    <img src="./img/header_circle2.png" alt="헤더 회전하는 볼트 이미지">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section data-aos="fade-up"
+                data-aos-duration="1000"
+        class="container about">
+            <dl>
+                <dt>
+                    <h2>웹표준이란</h2>
+                </dt>
+                <dd>
+                    <p>
+                        브라우저 종류 또는 버전의 차이가 있어도 호환이<br>
+                        가능하도록 제시된 표준입니다.
+                    </p>
+                </dd>
+            </dl>
+            <div>
+                <img src="./img/about_standards.png" alt="">
+            </div>
+        </section>
+        <section class="container standards_props">
+                <h2>웹표준의 장점</h2>
+                <ol id="trigger">
+                    <li data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-anchor="#trigger"
+                        class="card">
+                        <span>Step1</span>
+                        <img src="./img/tools.png" alt="">
+                        <h4>수정 및 운영관리 용이</h4>
+                        <p>
+                            올바른 구조화와 CSS 표현 통일화로 <br>
+                            인한 수정 및 관리 용이
+                        </p>
+                    </li>
+                    <li data-aos="fade-up"
+                    data-aos-delay="200"
+                    data-aos-duration="1000"
+                    data-aos-anchor="#trigger"
+                    class="card">
+                        <span>Step2</span>
+                        <img src="./img/www.png" alt="">
+                        <h4>검색엔진 최적화</h4>
+                        <p>
+                            구조화된 웹페이지는 검색엔진에<br>
+                            효율적 노출될 가능 높음
+                        </p>
+                    </li>
+                    <li data-aos="fade-up"
+                    data-aos-delay="400"
+                    data-aos-duration="1000"
+                    data-aos-anchor="#trigger"
+                    class="card">
+                        <span>Step3</span>
+                        <img src="./img/compatibility.png" alt="">
+                        <h4>호환성 가능</h4>
+                        <p>
+                            웹페이지 구조화시 다양한<br>
+                            브라우저에서 호환 가능
+                        </p>
+                    </li>
+                </ol>
+        </section>
+        <section data-aos="fade-up"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+        class="container about acc">
+            <div>
+                <img src="./img/about_accessibility.png" alt="">
+            </div>
+            <dl>
+                <dt>
+                    <h2>웹접근성이란</h2>
+                </dt>
+                <dd>
+                    <p>
+                        장애가 있는 사용자를 포함한 모든 사용자가<br>
+                        쉽고 효과적으로 상호작용 가능한 웹을 만드는<br>
+                        관행을 말합니다.
+                    </p>
+                </dd>
+            </dl>
+        </section>
+        <section class="container promise">
+            <div class="acc_container">
+                <h2 class="acc_h2_pc">웹접근성을 <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;지키는 법</h2>
+                <h2 class="acc_h2_m">웹 접근성을 지키는 법</h2>
+                <small># 우리들의 약속</small>
+                <small># 소수를 위한 배려</small>
+            </div>
+            <ol>
+                <li data-aos="fade-up"
+                class="card">
+                    <span>Step1</span>
+                    <img src="./img/text.png" alt="">
+                    <h4>적절한 대체 텍스트</h4>
+                    <p>
+                        시각적으로 인식하지 못하는<br>
+                        사용자 또는 상황을 대비
+                    </p>
+                </li>
+                <li data-aos="fade-up"
+                class="card">
+                    <span>Step2</span>
+                    <img src="./img/play.png" alt="">
+                    <h4>자동 재생 금지</h4>
+                    <p>
+                        자동으로 소리가 <br>
+                        재생되면 안 됨
+                    </p>
+                </li>
+                <li data-aos="fade-up"
+                class="card">
+                    <span>Step3</span>
+                    <img src="./img/keyboard.png" alt="">
+                    <h4>키보드 사용 보장</h4>
+                    <p>
+                        모든 기능은 키보드만으로<br>
+                        사용할 수 있어야 함
+                    </p>
+                </li>
+                <li data-aos="fade-up"
+                class="card">
+                    <span>Step4</span>
+                    <img src="./img/flash.png" alt="">
+                    <h4>깜빡임과 번쩍임 제한</h4>
+                    <p>
+                        초당 3~50회 주기로 깜빡,<br>
+                        번쩍거리는 콘텐츠 금지                        
+                    </p>
+                </li>
+                <li data-aos="fade-up"
+                class="card">
+                    <span>Step5</span>
+                    <img src="./img/language.png" alt="">
+                    <h4>기본 언어 표시</h4>
+                    <p>
+                        주로 사용하는 언어를<br>
+                        명시해야 함
+                    </p>
+                </li>
+                <li data-aos="fade-up"
+                class="card">
+                    <span>Step6</span>
+                    <img src="./img/pop-up.png" alt="">
+                    <h4>사용자 요구에 따른 실행</h4>
+                    <p>
+                        사용자가 의도하지 않는<br>
+                        기능은 실행 금지
+                    </p>
+                </li class="card">
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <div class="container footer_container">
+            <div>
+                <img data-aos="fade-down"
+                data-aos-duration="1000" src="./img/profile.png" alt="">
+                <h3 data-aos="fade-up"
+                    data-aos-delay="500"
+                    data-aos-duration="1500">저에 대해 궁금하신가요?</h3>
+                <a data-aos="fade-right" 
+                    data-aos-delay="2000"
+                    data-aos-offset="-10"
+                    data-aos-duration="1500" 
+                    href="#">이쪽으로 오시죠</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
