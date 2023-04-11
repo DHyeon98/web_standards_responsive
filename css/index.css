@@ -94,11 +94,17 @@ a {
   position: relative;
 }
 
-h2 {
+dt {
   font-size: 3em;
   line-height: 1.6;
   font-family: "BMJUA";
   color: #fff;
+}
+
+h2 {
+  font-size: 3em;
+  line-height: 1.6;
+  font-family: "BMJUA";
 }
 
 p {
