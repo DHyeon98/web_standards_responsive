@@ -31,6 +31,7 @@ p {
 }
 
 
+// 헤더
 header {
     width: 100%; height: 100vh;
     h1 {
@@ -50,6 +51,8 @@ header {
         text-align: center;
         color: #222222;
     }
+
+    // 자기소개 사이트 이동 버튼
     .other_site {
         text-align: center;
         a {
@@ -84,6 +87,8 @@ header {
         
     }
 }
+
+// 메인
 main {
     position: relative;
     width: 100%;
@@ -124,6 +129,8 @@ main {
             justify-content: space-between;
         }
     }
+
+    // 카드 목록 스타일
     .card {
         width: 31.5%; height: 520px;
         padding: 1.5em;
@@ -164,12 +171,16 @@ main {
             color: #707070;
         }
     }
+
+    // 웹접근성이란
     section.acc {
         background-color: #A13ACC;
         padding-left: 3em;
         padding-right: 7em;
         margin-bottom: 15em;
     }
+
+    // 웹접근성을 지키는 법
     .promise {
         position: relative;
         align-items: flex-start;
@@ -212,6 +223,7 @@ main {
     }
 }
 
+// 푸터
 footer {
     position: relative;
     overflow: hidden;
@@ -290,8 +302,8 @@ footer {
             padding: 2em;
             dl {
                 padding: 0;
-                h2 {
-                    font-size: 1.5em;
+                dt {
+                    font-size: 2em;
                 }
                 p {
                     font-size: 0.75em;
@@ -348,6 +360,118 @@ footer {
                     p {
                         font-size: 1em;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+    header {
+        h1 {
+            font-size: 5em;
+            text-shadow: 3px 3px 1px #b4b4b4;
+        }
+        p {
+            font-size: 1.5em;
+        }
+        .other_site {
+            a {
+                padding: 15px 15px;
+                font-size: 1em;
+            }
+        }
+        .img_box {
+            img {
+                width: 80%;
+            }
+        }
+        .header_img1 {
+            text-align: right;
+        }
+        .header_img2 {
+            text-align: left;
+        }
+    }
+    main {
+        section.about {
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
+            background-color: #4C4CE4;
+            border-radius: 30px;
+            box-sizing: border-box;
+            padding: 2em;
+            dl {
+                padding: 0;
+                dt {
+                    font-size: 2em;
+                }
+                p {
+                    font-size: 0.95em;
+                    font-family: 'Noto_Sans_Re';
+                    line-height: 1.6;
+                    color: #fff;
+                }
+            }
+            div {
+                width: 50%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        section.acc {
+            margin-bottom: 100px;
+            background-color: #A13ACC;
+        }
+    }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 766px) {
+    header {
+        h1 {
+            font-size: 3em;
+            text-shadow: 3px 3px 1px #b4b4b4;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        .other_site {
+            a {
+                padding: 10px 10px;
+                font-size: 0.8em;
+            }
+        }
+        .img_box {
+            img {
+                width: 60%;
+            }
+        }
+    }
+    main {
+        section.about {
+            align-items: center;
+            dl {
+                width: 100%;
+                margin-right: auto;
+                dt {
+                    font-size: 2.2em;
+                    text-align: center;
+                }
+                p {
+                    text-align: center;
+                    font-size: 1em;
+                    font-family: 'Noto_Sans_Re';
+                    line-height: 1.6;
+                    color: #fff;
+                }
+            }
+            div {
+                img {
+                    width: 100%;
+                    margin: 0 auto;
                 }
             }
         }
